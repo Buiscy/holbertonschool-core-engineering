@@ -1,0 +1,1 @@
+This is a seperator file so vscode stopped stacking the files strangly in the structure view.
