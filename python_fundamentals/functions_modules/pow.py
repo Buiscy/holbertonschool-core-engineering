@@ -5,8 +5,13 @@ def pow(a, b):
     i = 0
     j = 1
 
-    while i < b:
+    while i < abs(b):
         j = j * a
         i += 1
+    if b < 0:
+        j = 1 / j
 
+    print(j)
     return (j)
+
+pow(10, -2)
