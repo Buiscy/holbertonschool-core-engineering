@@ -11,7 +11,4 @@ def pow(a, b):
     if b < 0:
         j = 1 / j
 
-    print(j)
     return (j)
-
-pow(10, -2)
