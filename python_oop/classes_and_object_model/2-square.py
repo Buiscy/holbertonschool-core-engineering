@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""This is a practice class"""
+
+
+class Square:
+    """This is a class of square"""
+
+    def __init__(self, size):
+        if type(size) is not int:
+            raise TypeError("Size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
+
+        self.__size = size
