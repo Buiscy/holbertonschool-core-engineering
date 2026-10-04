@@ -5,9 +5,9 @@
 class Square:
     """This is a class of square"""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         if type(size) is not int:
-            raise TypeError("Size must be an integer")
+            raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
 
