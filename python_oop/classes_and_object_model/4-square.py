@@ -8,7 +8,6 @@ class Square:
     def __init__(self, value=0):
         self.size = value
 
-
     @property
     def size(self):
         return self.__size
