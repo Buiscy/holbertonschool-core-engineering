@@ -4,4 +4,4 @@
 def read_file(filename=""):
     """Prints contents of textfile"""
     with open(filename, 'r', encoding="utf-8") as f:
-        print("{}".format(f.read()))
+        print("{}".format(f.read()), end="")
